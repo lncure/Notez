@@ -1,4 +1,9 @@
-#LoginButtons{
+body{
+    text-align: center;
+    background-color: #ffd7e1;
+}
+
+.LoginButtons{
   background-color: #ec90a6;
   border: none;
   color: white;
@@ -10,7 +15,7 @@
   box-shadow: 2px 2px #cf8e9d;
 }
 
-.loginButtons:hover{
+.LoginButtons:hover{
     background-color: #cc7b8e;
     border: none;
     color: white;
@@ -22,10 +27,27 @@
     box-shadow: 2px 2px #cf8e9d;
 }
 
-#title{
-    background-color: #ffd1dc;
-}
+/* #title{
+  text-align: center;
+  background-color: #ffd7e1;
+} */
 
 .modal-text{
     font-family: Arial, Helvetica, sans-serif
+}
+
+.desc{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textContainer{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px solid deeppink;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: linear-gradient(lightblue, rgb(211, 141, 211));
+    box-shadow: 5px 10px lightpink;
+    line-height: 0.5;
 }

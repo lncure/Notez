@@ -2,7 +2,10 @@ window.onload = function(){
     //Get the Modal
     var modal = document.getElementById("loginModal");
 
-    //Get the LoginBtn
+    //Get the registerBtn
+    var registerbtn = document.getElementById("registerButton");
+
+    //Get the loginBtn
     var loginbtn = document.getElementById("loginButton");
 
     //Get the Span
@@ -10,7 +13,7 @@ window.onload = function(){
 
     //OPENING THE MODAL
     // When the user clicks on the Loginbutton, open the modal
-    loginbtn.onclick = function() {
+    registerbtn.onclick = function() {
         modal.style.display = "block";
     }
 
