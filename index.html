@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="modal.css"></link>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-        <script src="modal.js"></script>
+        <script src="registerModal.js"></script>
+        <script src="loginModal.js"></script>
     </head>
     <body>
         <!----------------------------------------BEGIN------------------------------------------>
@@ -19,23 +20,42 @@
             <h1 class="desc">Welcome to Notez</h1>
             <p class="desc">The free online GUI to help you through your daily tasks! </p>
             <div class="Buttons">
-                <button class="LoginButtons" id="LoginButton" type="button">Login</button>
+                <button class="LoginButtons" id="loginButton" type="button">Login</button>
                 <button class="LoginButtons" id="registerButton" type="button">Register</button>
             </div>
             <p>\\**-------------------------------------------------------------**//</p>
             <p>\\**-------------------------------**//</p>
+            <!--SIDEBARS STYLING-->
+            <div class="leftside"></div>
+            <div class="rightside"></div>
         </div>
         <!--END OF THE TITLE OF WEBSITE-->
+
+        <!------------------REGISTER MODAL------------------>
 
         <!--REGISTER MODAL-->
         <div id="register" class="modal">
         <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
+                <p>register</p>
             </div>
         </div>
-        <!--REGISTER MODAL END-->      
+        <!--REGISTER MODAL END-->
+
+        <!-------------------LOGIN MODAL-------------------->
+
+        <!--LOGIN MODAL-->
+        <div id="login" class="modal">
+            <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>login</p>
+                </div>
+            </div>
+        <!--LOGIN MODAL END-->    
+
+        <!--------------------------------------------------->
 
         <!--TEXT CONTAINER1-->
         <div class="textContainer">
@@ -44,7 +64,7 @@
                     <h3>How to operate</h3>
                     <p>Once you create your account and log in, everything should be extremely simple!</p>
                     <p>our experts have made it so that this GUI is clear as day..</p>
-                    <p>Hope you enjoy your experience at NOTEZ tm</p>
+                    <p>Hope you enjoy your experience at Notez™</p>
                 </div>
             </div>
         </div>

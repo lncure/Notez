@@ -3,6 +3,30 @@ body{
     background-color: #ffd7e1;
 }
 
+.leftside{
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1; /* sure to stay top */
+    top: 0; /*sure to stay top*/
+    left: 0; /*positioned left*/
+    background-color: #aec6cf;
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+
+.rightside{
+    height: 100%; 
+    width: 80px;
+    position: fixed; 
+    z-index: 1; /* sure to stay top */
+    top: 0; /* sure to stay top */
+    right: 0;
+    background-color: #aec6cf;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
 .LoginButtons{
   background-color: #ec90a6;
   border: none;
@@ -26,11 +50,6 @@ body{
     font-size: 16px;
     box-shadow: 2px 2px #cf8e9d;
 }
-
-/* #title{
-  text-align: center;
-  background-color: #ffd7e1;
-} */
 
 .modal-text{
     font-family: Arial, Helvetica, sans-serif

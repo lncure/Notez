@@ -1,19 +1,16 @@
 window.onload = function(){
     //Get the Modal
-    var modal = document.getElementById("loginModal");
+    var modal = document.getElementById("login");
 
     //Get the registerBtn
-    var registerbtn = document.getElementById("registerButton");
-
-    //Get the loginBtn
     var loginbtn = document.getElementById("loginButton");
 
     //Get the Span
     var span = document.getElementsByClassName("close")[0]
 
-    //OPENING THE MODAL
-    // When the user clicks on the Loginbutton, open the modal
-    registerbtn.onclick = function() {
+ //OPENING THE MODAL
+    // When the user clicks on the Registerbutton, open the modal
+    loginbtn.onclick = function() {
         modal.style.display = "block";
     }
 
