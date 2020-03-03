@@ -38,7 +38,22 @@
         <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>register</p>
+                <form action="register.php" method="post">
+                  
+                    <div class="container">
+                      <label id="reg-uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+
+                      <label id="reg-psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                      <button type="submit">Done</button>
+                    </div>
+                  
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button type="button" class="cancelbtn">Cancel</button>
+                    </div>
+                </form>
             </div>
         </div>
         <!--REGISTER MODAL END-->
@@ -50,7 +65,22 @@
             <!-- Modal content -->
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <p>login</p>
+                    <form action="action_page.php" method="post">
+
+                        <div class="container">
+                          <label id="login-uname"><b>Username</b></label>
+                          <input type="text" placeholder="Enter Username" name="uname" required>
+                      
+                          <label id="login-psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                          <button type="submit">Login</button>
+                        </div>
+                      
+                        <div class="container" style="background-color:#f1f1f1">
+                          <button type="button" class="cancelbtn">Cancel</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         <!--LOGIN MODAL END-->    
