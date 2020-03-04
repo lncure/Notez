@@ -70,3 +70,8 @@ body{
     box-shadow: 5px 10px lightpink;
     line-height: 1;
 }
+
+img{
+    width: 100%;
+    height: 90%;    
+}

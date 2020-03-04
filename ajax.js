@@ -5,6 +5,6 @@ $.ajax({
 
         $("#explanation").html(myData.explanation);
         $("#fuckyou").html(myData.title);
-        $("#spaceImage").attr("src", myData.url)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        $("#spaceImage").attr("src", myData.url)
     },
 });
