@@ -11,6 +11,7 @@
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
         <script src="registerModal.js"></script>
         <script src="loginModal.js"></script>
+        <script src="ajax.js"></script>
     </head>
     <body>
         <!----------------------------------------BEGIN------------------------------------------>
@@ -36,24 +37,13 @@
         <!--REGISTER MODAL-->
         <div id="register" class="modal">
         <!-- Modal content -->
-            <div class="modal-content">
+            <div id="fuckyou" class="modal-content">
                 <span class="close">&times;</span>
-                <form action="register.php" method="post">
-                  
-                    <div class="container">
-                      <label id="reg-uname"><b>Username</b></label>
-                      <input type="text" placeholder="Enter Username" name="uname" required>
 
-                      <label id="reg-psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
-                  
-                      <button type="submit">Done</button>
-                    </div>
-                  
-                    <div class="container" style="background-color:#f1f1f1">
-                      <button type="button" class="cancelbtn">Cancel</button>
-                    </div>
-                </form>
+                <button id="red">red</button>
+                <button id="blue">blue</button>
+                <button id="green">green</button>
+                
             </div>
         </div>
         <!--REGISTER MODAL END-->
@@ -63,24 +53,9 @@
         <!--LOGIN MODAL-->
         <div id="login" class="modal">
             <!-- Modal content -->
-                <div class="modal-content">
+                <div id="spaceImage" class="modal-content">
                     <span class="close">&times;</span>
-                    <form action="action_page.php" method="post">
-
-                        <div class="container">
-                          <label id="login-uname"><b>Username</b></label>
-                          <input type="text" placeholder="Enter Username" name="uname" required>
-                      
-                          <label id="login-psw"><b>Password</b></label>
-                          <input type="password" placeholder="Enter Password" name="psw" required>
-                      
-                          <button type="submit">Login</button>
-                        </div>
-                      
-                        <div class="container" style="background-color:#f1f1f1">
-                          <button type="button" class="cancelbtn">Cancel</button>
-                        </div>
-                    </form>
+                   
                 </div>
             </div>
         <!--LOGIN MODAL END-->    
@@ -90,11 +65,8 @@
         <!--TEXT CONTAINER1-->
         <div class="textContainer">
             <div class="row">
-                <div class="col">
-                    <h3>How to operate</h3>
-                    <p>Once you create your account and log in, everything should be extremely simple!</p>
-                    <p>our experts have made it so that this GUI is clear as day..</p>
-                    <p>Hope you enjoy your experience at Notez™</p>
+                <div id="explanation" class="col">
+                    
                 </div>
             </div>
         </div>
